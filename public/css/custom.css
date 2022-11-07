@@ -1,0 +1,24 @@
+header .container .btn{
+    margin:10px;
+}
+
+section img.main-img{
+    max-width: calc(100vw - 40px);
+    margin: auto;
+    margin-bottom: 20px;
+}
+header img.main-img{
+    max-width: calc(100vw - 40px);
+    margin: auto;
+}
+
+.masthead{
+    padding-top: 4rem;
+}
+
+@media screen and (max-width: 700px){
+    header img.main-img, section img.main-img{
+        width:300px;
+    }
+
+}
