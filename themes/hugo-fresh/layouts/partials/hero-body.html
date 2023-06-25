@@ -5,28 +5,27 @@
 {{- $buttonLink := index $hero "buttonlink" }}
 {{- $image      := index $hero "image" }}
 <div class="hero-body">
-  <div class="container">
-    <div class="columns is-vcentered">
-      <div class="column is-5 is-offset-1 landing-caption">
-        <h1 class="title is-1 is-bold is-spaced">
-          {{ $title }}
-        </h1>
-        {{ with $subtitle }}
-        <h2 class="subtitle is-5 is-muted">
-          {{ . }}
-        </h2>
-        {{ end }}
-        <p>
-          <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
-            {{ $buttonText }}
-          </a>
-        </p>
-      </div>
-      <div class="column is-5 is-offset-1">
-        <figure class="image is-4by3">
-          <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
-        </figure>
-      </div>
+  <div class="topics">
+    <div class="topic">
+
+      <h3>APE</h3>
+      <img src="https://fakeimg.pl/250x250/" alt="" />
+
+      <a class="button primary-btn" href="/">Présentation</a>
+    </div>
+    <div class="topic">
+
+      <h3>Evénements</h3>
+      <img src="https://fakeimg.pl/250x250/" alt="" />
+
+      <a class="button primary-btn" href="/">Liste</a>
+    </div>
+    <div class="topic">
+
+      <h3>Commandes</h3>
+      <img src="https://fakeimg.pl/250x250/" alt="" />
+
+      <a class="button primary-btn" href="/">Je commandes</a>
     </div>
   </div>
 </div>

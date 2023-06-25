@@ -2,7 +2,7 @@
 {{- $title    := index $section2 "title" }}
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
-<section class="section is-medium" id="section2">
+<section class="section is-medium" id="evenements">
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
@@ -18,7 +18,7 @@
               <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
             </p>
           </figure>
-          <div class="media-content mt-50">
+          <div class="media-content">
             <div class="content">
               <p>
                 <span class="icon-box-title">{{ .title }}</span>
@@ -26,6 +26,8 @@
                 <span class="icon-box-text">{{ .text | markdownify }}</span>
               </p>
             </div>
+
+            <a href="" class="button accent-btn">Je m'inscris</a>
           </div>
         </article>
         {{- end }}

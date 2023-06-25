@@ -1,5 +1,5 @@
 ---
-title: AGB
+title: Commandes
 include_footer: true
 sidebar: false
 ---

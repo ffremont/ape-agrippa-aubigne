@@ -1,6 +1,6 @@
 baseURL: 'http://example.org/'
-languageCode: 'en-us'
-title: 'My New Hugo Site'
+languageCode: 'fr-fr'
+title: 'APE Agrippa Aubigné'
 theme: 'hugo-fresh'
 
 
@@ -57,116 +57,65 @@ params:
       url: https://bulma.io/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
+  - title: Evénements
+    url: /#evenements
+  - title: Commandes
+    url: /commandes
+  - title: Contact
+  - title: Don
     url: /
     button: true
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Association des parents d'élèves
+    subtitle: Agrippa Aubigné
     tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+    - title: L'association
+      icon: team
+      text: Découvrir l'APE, son fonctionnement et ses misions.
       url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      buttonText: Présentation
+    - title: Evénements
+      icon: party
+      text: L'APE est présente à tous les moments forts de l'école.
       url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      buttonText: Consulter l'agenda
+    - title: Commandes
+      icon: cart2
+      text: Jus de pommes, sapin...
       url: /
-      buttonText: Get started
+      buttonText: Je commande
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: Prochains événements
+    subtitle: 
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
+    - title: Cueillette & pressage de jus de pommes
+      text: ... 
+      icon: apple
+      buttonText: Je m'inscris
+    - title: Marché d'automne
+      text: ... 
+      icon: market
+      buttonText: Je m'inscris
   section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
+    title: Aider sans être membre
+    subtitle: Pour un ou plusieurs événements.
+    image: illustrations/mockups/fake.png
+    buttonText: Donner du temps !
     buttonLink: "#"
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+    title: L'APE a besoin de vous 
+    subtitle: 
+    items:
+    - title: Mission de L'APE
+      description: Participer aux sorties scolaires et aux voyages 
+    - title: Avec votre aide
+      description: Vos idées, vos compétences, un coup de main lors des événements, un gâteau, intégrer l'association
+    
+   
   section5:
-    title: Drop us a line or two
-    subtitle: We'd love to hear from you
-    buttonText: Send Message
+    title: Nous contacter
+    subtitle: Vous avez des idées ou des questions ? 
+    buttonText: Envoyer
     # action: https://formspree.io/f/<form_id>
     # method: POST
   footer:

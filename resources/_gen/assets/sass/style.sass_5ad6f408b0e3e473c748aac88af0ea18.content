@@ -8739,4 +8739,55 @@ body #backtotop a {
   /* Firefox 18- */
   color: #cecece; }
 
+.hero.is-fullheight {
+  min-height: auto; }
+
+.hero .hero-body .topics {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .hero .hero-body .topics .topic {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .hero .hero-body .topics .topic a {
+      margin: 0.8rem; }
+
+#section1 {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+#evenements article.media {
+  display: flex;
+  align-items: center; }
+
+#evenements .image img {
+  width: 50px;
+  height: 50px; }
+
+#section4 .need-items {
+  align-items: center;
+  justify-content: center; }
+  #section4 .need-items .need-item {
+    margin: 1rem;
+    background: white;
+    border-radius: 5px;
+    padding: 1rem 2rem; }
+    #section4 .need-items .need-item h4 {
+      font-weight: bold; }
+
+section .feature-card {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+@media screen and (min-width: 1024px) {
+  .section.is-medium {
+    padding: 4rem 4.5rem; } }
+
 /*# sourceMappingURL=style.css.map */
